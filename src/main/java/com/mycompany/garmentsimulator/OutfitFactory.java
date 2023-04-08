@@ -9,7 +9,7 @@ package com.mycompany.garmentsimulator;
  * @author mikel
  */
 public interface OutfitFactory {
-    
+    // abstract outfit factory class
     Tops getTop();
     Pants getPants();
     Shoes getShoes();

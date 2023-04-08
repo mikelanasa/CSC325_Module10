@@ -9,19 +9,22 @@ package com.mycompany.garmentsimulator;
  * @author mikel
  */
 public class Application {
-    //Application to describe a publication
+    //Application to describe an outfit
     
+    // member variables for each garment type
     private Tops top;
     private Pants pants;
     private Shoes shoes;
     
+    // constructor
     public Application(OutfitFactory factory) {
         top = factory.getTop();
         pants = factory.getPants();
         shoes = factory.getShoes();
     }
     
-    public void revealContent(){
+    // method to show garment variant
+    public void showOutfit(){
         top.garmentType();
         pants.garmentType();
         shoes.garmentType();

@@ -9,7 +9,7 @@ package com.mycompany.garmentsimulator;
  * @author mikel
  */
 public class PartyOutfitFactory implements OutfitFactory{
-    
+    // class to create a party outfit
     public Tops getTop() {
         return new PartyTop();
     }

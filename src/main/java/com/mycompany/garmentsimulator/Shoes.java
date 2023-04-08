@@ -9,7 +9,7 @@ package com.mycompany.garmentsimulator;
  * @author mikel
  */
 public interface Shoes {
-    
+    // abstract shoes class
     void garmentType();
     
 }

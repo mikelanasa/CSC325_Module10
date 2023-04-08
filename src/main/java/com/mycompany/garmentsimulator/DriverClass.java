@@ -9,7 +9,7 @@ package com.mycompany.garmentsimulator;
  * @author mikel
  */
 public class DriverClass {
-    
+    // This solution uses the abstract factory design pattern 
     private static Application configureApplication() {
         
         Application app;
@@ -34,6 +34,6 @@ public class DriverClass {
 
     public static void main(String[] args) {
         Application app = configureApplication();
-        app.revealContent();
+        app.showOutfit();
     }
 }
