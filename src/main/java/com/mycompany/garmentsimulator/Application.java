@@ -15,7 +15,11 @@ public class Application {
     private Pants pants;
     private Shoes shoes;
     
-    
+    public Application(OutfitFactory factory) {
+        top = factory.getTop();
+        pants = factory.getPants();
+        shoes = factory.getShoes();
+    }
     
     public void revealContent(){
         top.garmentType();
